@@ -6,7 +6,7 @@ language: python(without pypy)
 **main method**: by random-proportional rule  
 more about random-proportional rule, see http://www-igm.univ-mlv.fr/~lombardy/ens/JavaTTT0708/fourmis.pdf  
   
-**benchline**: without heuristic parameter ��(inverse of distance, see random-proportional rule)  
+**benchline**: without heuristic parameter η(inverse of distance, see random-proportional rule)  
   
 performance:  
 52 points tsp  
@@ -23,4 +23,4 @@ performance:
     main method:  
         about 40 seconds time used  
         6518.212887978163 best result (in 20 test)  
-    <del>benchline:</del>  
+    ~~benchline:~~  
