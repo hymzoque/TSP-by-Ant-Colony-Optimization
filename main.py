@@ -29,8 +29,8 @@ def ACO_benchline(dataset):
     distances = initer.distances
     if (dataset == 52):
         g = Group.Group(distances, 0.4, 0, 200, 300, None)
-#    elif (dataset == 130):
-#        g = Group.Group(distances, 0.2, 0, 300, 300, None)
+    elif (dataset == 130):
+        g = Group.Group(distances, 0.4, 0, 400, 200, None)
     
     with open("log_benchline_" + str(dataset), "a") as f:
         best = g.evolution_benchline(file=f)
@@ -63,6 +63,6 @@ def test_ACO_benchline(dataset):
 #ACO(52)
 #ACO_benchline(52)
 #test_ACO(52)
-#test_ACO_benchline(52)
+test_ACO_benchline(130)
             
             
